@@ -1,5 +1,5 @@
-h3 {
-    color:green;
+body {
+    background-color:beige;
 }
 .main {
     border-radius: 4px;
@@ -9,3 +9,34 @@ h3 {
     border: 4px solid black;
     justify-items: center;
 }
+
+.navbar span a{
+    background-color:transparent;
+    justify-content: space-between;
+    justify-items: center;
+    display: inline;
+    border-radius: 4px;
+    padding: 15px;
+    gap: 10px;
+    backdrop-filter: blur(5px);
+    border: 2px solid blueviolet;
+    border-color: blueviolet;
+    border-radius: 5PX;
+    text-decoration: none;
+}
+.navbar {
+    justify-content: center;
+    justify-items: space-between;
+    display: flex;
+    border: 5px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* .navbar span {
+    justify-content: space-between;
+    justify-items: center;
+    display: flex;
+    padding: 10px;
+    border: 5px;
+} */
